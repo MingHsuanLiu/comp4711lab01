@@ -13,7 +13,12 @@
     </head>
     <body>
         <?php
-            echo "Hello, World!";
+        include ('student.php');
+        
+        $students = array();
+        
+        foreach ($students as $student) 
+            echo $student->toString();
         ?>
     </body>
 </html>
