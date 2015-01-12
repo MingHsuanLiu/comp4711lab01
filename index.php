@@ -8,12 +8,12 @@
 
 <<html>
     <head>
-        <meta charset="UTF-8"
+        <meta charset="UTF-8">
         <title>COMP4711 - Lab01</title>
     </head>
     <body>
         <?php
-            echo "Hello, World!";
+            echo "Hello, World! - ";
         ?>
     </body>
 </html>
